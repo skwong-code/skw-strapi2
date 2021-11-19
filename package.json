@@ -13,7 +13,6 @@
   "dependencies": {
     "apollo": "^2.33.9",
     "graphql": "^16.0.1",
-    "lodash": "^4.17.21",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-mongoose": "3.6.8",
