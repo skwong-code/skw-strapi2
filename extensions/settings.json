@@ -1,11 +1,13 @@
 {
-    "provider": "aws-s3",
-    "providerOptions": {
-      "accessKeyId": "${process.env.AWS_ACCESS_KEY}",
-      "secretAccessKey": "${process.env.AWS_SECRET_KEY}",
-      "region": "${process.env.AWS_REGION}",
-      "params": {
-        "Bucket": "${process.env.AWS_BUCKET}"
-      }
+      
+  "provider": "aws-s3",
+  "providerOptions": {
+    "accessKeyId": "AKIA35KCLFHBP3JCOI5F",
+    "secretAccessKey": "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",
+    "region": "us-west-1",
+    "params": {
+      "Bucket": "image-b354"
+
     }
-  }
+}
+}
