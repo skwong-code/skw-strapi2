@@ -624,6 +624,9 @@
               "Limitations": {
                 "type": "string"
               },
+              "URL": {
+                "type": "uid"
+              },
               "created_by": {
                 "type": "string"
               },

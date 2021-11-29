@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "dishes",
   "info": {
@@ -29,8 +30,8 @@
       "type": "decimal"
     },
     "restaurant": {
-      "model": "restaurant",
-      "via": "dishes"
+      "via": "dishes",
+      "model": "restaurant"
     }
   }
 }
